@@ -1,0 +1,57 @@
+.imagenbloque{
+	width: 300px;float:left;
+}
+.bloque{
+	max-width: 200px;
+padding: 10px;
+}
+.numero{
+	display: block;
+float: left;
+font-size: 30px;
+padding: 10px;
+}
+.imagenbloque {
+    width: 75%;
+}
+.textobloque {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 13px;
+}
+.containerglobal{
+	display: grid;
+grid-template-columns: auto auto auto;
+}
+.menuitem{
+	display:inline-block;
+}
+.menuitem a{
+	color:black;
+	 text-decoration: none;
+}
+#menu{
+margin: 0 auto;
+text-align: center;
+font-size: 23px;
+}
+*{
+	font-family: sans-serif;
+}
+span {
+    font-size: small;
+}
+.imgfront {
+    width: 100%;
+    max-height: 150px;
+	background: linear-gradient(cyan, white);
+		min-height: 150px;
+}
+.ballena{
+	float:right;
+	padding: 20px;
+	margin:20px;
+	margin-top: 5px;
+	padding-top: 5px;
+}
